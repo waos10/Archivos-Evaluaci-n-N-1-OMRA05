@@ -1,0 +1,19 @@
+echo
+echo Directorio actual y archivos dentro de ella
+pwd
+ls -l
+echo
+
+echo
+echo Permitir ejecución de los archivos y cambio de propiedad a root
+chmod u+x Nombres.py
+chmod u+x Solicita.py
+chmod u+x ACL.py
+sudo chown root Nombres.py
+sudo chown root Solicita.py
+sudo chown root ACL.py
+echo
+echo Permisos modificados de los archivos
+ls -l
+echo
+ 
